@@ -100,6 +100,8 @@
   background-size: cover;
 }
 
+
+
 .masthead h1 {
   font-family: 'Varela Round';
   font-size: 2.5rem;
@@ -109,6 +111,9 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
+
+
 
 .masthead h2 {
   max-width: 20rem;
@@ -173,11 +178,13 @@
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 0rem 0;
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding-top: 2.5rem 0;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem 0;
 }
 
 .projects-section .featured-text {
@@ -188,6 +195,7 @@
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
+    margin-right: 1rem;
   }
 }
 
@@ -276,6 +284,7 @@
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
+  
 }
 
 a {
@@ -301,4 +310,9 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+.about {
+  margin-bottom: 0rem !important;
+  background-color: #f8f9fa !important;
 }
