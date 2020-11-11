@@ -187,6 +187,7 @@
   padding-top: 2.5rem 0;
   padding-bottom: 0rem;
   margin-bottom: 0rem 0;
+  color: #161616;
 }
 
 .projects-section .featured-text {
@@ -316,8 +317,10 @@ footer {
   padding: 5rem 0;
 }
 
-.about {
+
+
+/* .about {
   margin-bottom: 0rem !important;
   background-color: #f8f9fa !important;
-}
+} */
 
