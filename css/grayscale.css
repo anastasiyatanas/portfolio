@@ -4,9 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
-
-
-#mainNav {
+ #mainNav {
   min-height: 56px;
   background-color: #fff;
 }
@@ -102,20 +100,15 @@
   background-size: cover;
 }
 
-
-
 .masthead h1 {
   font-family: 'Varela Round';
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-
-
-
 
 .masthead h2 {
   max-width: 20rem;
@@ -180,14 +173,12 @@
 }
 
 .about-section p {
-  margin-bottom: 0rem 0;
+  margin-bottom: 5rem;
 }
 
 .projects-section {
-  padding-top: 2.5rem 0;
+  padding-top: 5rem 0;
   padding-bottom: 0rem;
-  margin-bottom: 0rem 0;
-  color: #161616;
 }
 
 .projects-section .featured-text {
@@ -198,7 +189,6 @@
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
-    margin-right: 1rem;
   }
 }
 
@@ -287,9 +277,6 @@
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
-  width: 100%;
-  position: fixed;
-  
 }
 
 a {
@@ -316,11 +303,3 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
-
-
-
-/* .about {
-  margin-bottom: 0rem !important;
-  background-color: #f8f9fa !important;
-} */
-
